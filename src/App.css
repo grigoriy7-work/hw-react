@@ -1,9 +1,20 @@
-.box {
+.box-menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 160px;
-  height: 120px;
-  border: 1px solid silver;
-  padding: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+
+  .box-user {
+    div {
+      margin-right: 5px;
+    }
+  }
+}
+
+.note-add {
+  padding: 10px 10px 10px 0;
+  
+  div {
+    margin-right: 5px;
+  }
 }
